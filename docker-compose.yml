@@ -1,0 +1,7 @@
+services:
+  angular-nginx:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./dist/b-net:/usr/share/nginx/html
