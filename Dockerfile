@@ -1,7 +1,7 @@
 # Utiliza una imagen de NGINX como base
 FROM nginx:latest
 
-COPY nginx.conf /etc/nginx/nginx.conf
+# COPY nginx.conf /etc/nginx/nginx.conf
 # COPY nginx.conf /etc/nginx/nginx.conf
 
 # Copia los archivos estáticos de tu proyecto Angular al directorio de NGINX
