@@ -7,7 +7,6 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # Copia los archivos estáticos de tu proyecto Angular al directorio de NGINX
 COPY dist/bnetprueba /usr/share/nginx/html
 
-
 # Cambiar el propietario y el grupo de los archivos en la carpeta de Nginx
 RUN chown -R nginx:nginx /usr/share/nginx/html
 # RUN chmod -R 777 /usr/share/nginx/html
