@@ -1,6 +1,6 @@
 version: '3'
 services:
-  angular-nginx:
+  angular-prueba:
     build: .
     ports:
       - "80:80"
