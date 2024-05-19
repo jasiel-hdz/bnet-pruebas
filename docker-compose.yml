@@ -4,4 +4,4 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./dist/b-net:/usr/share/nginx/html
+      - ./dist/bnetprueba:/usr/share/nginx/html
